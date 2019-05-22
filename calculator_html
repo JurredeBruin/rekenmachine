@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <title>calculator</title>
+  <link rel="stylesheet" href="media/new_calc.css" type="text/css">
+  </head>
+<body>
+
+	
+<script type="text/javascript" src="media/new_calc.js">
+</script>	
+
+<fieldset>
+<p id="demo" ></p>	
+<div id="button">	
+<button class="button_calc" value="button" onclick="myFunction('7')">7</button>
+<button class="button_calc" value="button" onclick="myFunction('8')">8</button>
+<button class="button_calc" value="button" onclick="myFunction('9')">9</button>
+<button class="button_calc" value="button" onclick="myClear('')">CE</button><br>
+<button class="button_calc" value="button" onclick="myFunction('4')">4</button>
+<button class="button_calc" value="button" onclick="myFunction('5')">5</button>
+<button class="button_calc" value="button" onclick="myFunction('6')">6</button>
+<button class="button_calc" value="button" onclick="myResult()">=</button><br>
+<button class="button_calc" value="button" onclick="myFunction('1')">1</button>
+<button class="button_calc" value="button" onclick="myFunction('2')">2</button>
+<button class="button_calc" value="button" onclick="myFunction('3')">3</button>
+<button class="button_calc" value="button" onclick="myFunction('/')">/</button><br>
+<button class="button_calc" value="button" onclick="myFunction('0')">0</button>
+<button class="button_calc" value="button" onclick="myFunction('+')">+</button>
+<button class="button_calc" value="button" onclick="myFunction('-')">-</button>
+<button class="button_calc" value="button" onclick="myFunction('*')">*</button>
+</div>
+</fieldset>
+
+</body>
+</html>
