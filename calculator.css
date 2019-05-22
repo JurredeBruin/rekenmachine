@@ -1,0 +1,33 @@
+fieldset{
+width:275px;
+height:315px;
+background:gray;
+border-radius:10px;
+margin:150px auto;
+padding: 10px;
+   box-shadow: 5px 10px 30px;
+}
+button {
+    width: 50px;
+    margin: 5px;
+		border-radius: 15px;
+		height:50px;
+		background:#91b6f2;
+		font-size: 130%;
+		 box-shadow: 3px 5px;
+}
+p{
+height: 30px;
+    padding: 9px 0px 0px 7px;
+    width: 218px;
+background:white;
+font-size: 135%;
+box-shadow: 3px 5px inset;
+margin: 9px 21px 8px 23px;
+}
+div#button{
+margin: 0 0 0 13px;
+}
+button:hover { 
+    background-color: #4586ef;
+}
